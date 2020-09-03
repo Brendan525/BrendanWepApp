@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<h2><strong>@ViewBag.Message</strong></h2> <br />
+
+@*<form action=" ="/Home/ThankYou">
+    First Name: <input type="text" name="firstname" /> <br /><br />
+    Last Name: <input type="text" name="firstname" /> <br /><br />
+
+    @Html.Raw(ViewBag.Message)
+
+    Email:<input type="text" name="emailaddress" /> <br /><br />
+    <input type="submit" value="Submit" />
+</form>*@
+
+
+
+<address>
+    My Work Address <br /> <br />
+    One Campus Martius <br />
+    1050 Woodward Ave.<br />
+    Detroit, MI 48226-106<br />
+    <abbr title="Phone">P:</abbr>
+    425.555.0100
+</address>
+
+<address>
+    <strong>Support Team:</strong>   <a href="mailto:brenxburch@gmail.com?subject=The%20subject%20of%20the%20email&body=The%20body%20of%20the%20email">Support@dontemailme.com</a><br /> @*mailto USUALLY ENDS UP IN SPAM FOLDERS. USE MAILTO FORMS*@
+
+    <strong>Marketing Team:</strong> <a href="mailto:Dontemailme@example.com?subject=The%20subject%20of%20the%20email">Marketing@dontemailme.com</a> <br /> <br />
+
+    <form action="mailto:brenxburch@gmail.com" method="get" enctype="text/plain">
+        <div>
+            <label for="name">
+                Name:
+                <input type="text" name="name" id="name" />
+            </label>
+        </div>
+        <div>
+            <label for="email">
+                Email:
+                <input type="text" name="email" id="email" />
+            </label>
+        </div>
+        <div>
+            <label>Comments:</label>
+            <br />
+            <textarea name="comments" rows="12" cols="35" placeholder="Send your comments to me."></textarea>
+        </div>
+        <div>
+            <input type="submit" name="submit" value="Send" />
+            <input type="reset" name="reset" value="Clear Form" />
+        </div>
+</address>

@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Demo";
+    string IntroText = "Here are the words:";
+}
+
+<h2>Demo</h2>
+
+<h1>Here's some information</h1>
+
+@IntroText
+@foreach (string name in ViewBag.List)
+{
+    <h2>Next Name</h2>
+
+    @name
+    <br />
+}
+
+<h4>That was the information!</h4>
+

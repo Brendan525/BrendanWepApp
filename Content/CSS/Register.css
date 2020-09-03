@@ -1,0 +1,26 @@
+﻿body {
+    background-color: green;
+}
+
+fieldset{
+    color: pink;
+}
+
+legend{
+    color: white;
+}
+
+input{
+/*    border-bottom-color: pink;*/
+    border-color: yellow;
+}
+
+.submit{
+    color: black;
+}
+
+.pokemon{
+    background-color: gray;
+    text-align: center;
+}
+
