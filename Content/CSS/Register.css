@@ -24,3 +24,16 @@ input{
     text-align: center;
 }
 
+@media (max-width: 500px) {
+    body{
+        background-color: blue;
+        color: red; /*Only changes footer*/
+    }
+
+    fieldset {
+        color: red;
+    }
+
+    
+}
+
