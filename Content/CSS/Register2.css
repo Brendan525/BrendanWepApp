@@ -2,25 +2,25 @@
     background-color: white;
 }
 
-fieldset{
-/*    color: blue;*/
+fieldset {
+    /*color: blue;*/ /*Changes color text under the field set*/
 }
 
-legend{
+legend {
     color: blue;
 }
 
-input{
-/*    border-bottom-color: pink;*/
-/*    border-color: red;*/
+input {
+    /*border-bottom-color: pink; */ /* Changes colors of the input borders*/
+    /*border-color: red;*/ /* Changes colors of the input borders*/
 }
 
-.submit{
-    color: black;
+.submit {
+    color: purple;
 }
 
-.pokemon{
-/*    background-color: gray;*/
+.pokemon {
+    /*    background-color: gray;*/
     text-align: center;
 }
 
@@ -54,17 +54,17 @@ input{
 
 
 @media (max-width: 500px) {
-    body{
+    body {
         background-color: white;
         color: red; /*Only changes footer*/
     }
 
     fieldset {
-        /*color: blue;*/ /*All lettering within the fieldset*/
+        color: blue; /*All lettering within the fieldset*/
     }
 
     .bulbasaurTitle {
-        color: green;   
+        color: green;
     }
 
     .bulbasaur {
@@ -87,16 +87,15 @@ input{
         padding-left: 75px;
     }
 
-    .pocketmonsters{
+    .pocketmonsters {
         background-color: white;
     }
 
 
 
-  /*  label{
+    /*  label{
         padding-top: 100px;
     }*/
 
-    
 }
 

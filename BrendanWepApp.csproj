@@ -133,13 +133,16 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\CSS\index.css" />
     <Content Include="Content\CSS\Layout1.css" />
-    <Content Include="Content\CSS\Register.css" />
+    <Content Include="Content\CSS\Register2.css" />
     <Content Include="Content\Images\001Bulbasaur.png" />
     <Content Include="Content\Images\004Charmander.png" />
     <Content Include="Content\Images\006Charizard.png" />
     <Content Include="Content\Images\007Squirtle.png" />
     <Content Include="Content\Images\150Mewtwo.png" />
+    <Content Include="Content\Images\RedRGBwalkdown.png" />
+    <Content Include="Content\Images\RG_flyer_front.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
