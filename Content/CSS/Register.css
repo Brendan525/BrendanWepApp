@@ -1,18 +1,18 @@
 ﻿body {
-    background-color: green;
+    background-color: white;
 }
 
 fieldset{
-    color: pink;
+/*    color: blue;*/
 }
 
 legend{
-    color: white;
+    color: blue;
 }
 
 input{
 /*    border-bottom-color: pink;*/
-    border-color: yellow;
+/*    border-color: red;*/
 }
 
 .submit{
@@ -20,19 +20,82 @@ input{
 }
 
 .pokemon{
-    background-color: gray;
+/*    background-color: gray;*/
     text-align: center;
 }
 
+.bulbasaurTitle {
+    color: green;
+}
+
+.bulbasaur {
+    padding-left: 50px;
+}
+
+.charmanderTitle {
+    color: red;
+}
+
+.charmander {
+    padding-left: 47px;
+}
+
+.squritleTitle {
+    color: blue;
+}
+
+.squritle {
+    padding-left: 75px;
+}
+
+
+
+
+
+
 @media (max-width: 500px) {
     body{
-        background-color: blue;
+        background-color: white;
         color: red; /*Only changes footer*/
     }
 
     fieldset {
+        /*color: blue;*/ /*All lettering within the fieldset*/
+    }
+
+    .bulbasaurTitle {
+        color: green;   
+    }
+
+    .bulbasaur {
+        padding-left: 50px;
+    }
+
+    .charmanderTitle {
         color: red;
     }
+
+    .charmander {
+        padding-left: 47px;
+    }
+
+    .squritleTitle {
+        color: blue;
+    }
+
+    .squritle {
+        padding-left: 75px;
+    }
+
+    .pocketmonsters{
+        background-color: white;
+    }
+
+
+
+  /*  label{
+        padding-top: 100px;
+    }*/
 
     
 }
